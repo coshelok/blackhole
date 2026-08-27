@@ -1,6 +1,6 @@
 # BlackHole CLI
 
-> **Turns any directory structure into a microscopic 1 KB `.singularity` file.**
+> **Turns any directory structure into a microscopic `.singularity` file.**
 
 `blackhole` is a cross-platform command-line tool designed for folder annihilation. It traverses directory trees deep-first, overwrites files with zero-byte buffers, flushes physical disk write caches, and collapses the target path into a single JSON metadata artifact (`.singularity`).
 
@@ -17,7 +17,7 @@
 
 # Build from Source
 ```bash
-git clone [https://github.com/coshelok/blackhole.git](https://github.com/coshelok/blackhole.git)
+git clone https://github.com/coshelok/blackhole.git
 cd blackhole
 cargo build --release
 ```
