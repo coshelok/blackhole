@@ -16,19 +16,23 @@
 
 
 # Build from Source
-git clone https://github.com/coshelok/blackhole.git
+```bash
+git clone [https://github.com/coshelok/blackhole.git](https://github.com/coshelok/blackhole.git)
 cd blackhole
 cargo build --release
+```
 
 
 > **The compiled executable will be at target/release/blackhole.**
 
 
 # Run
+```bash
 ./target/release/blackhole /path/to/target_directory
-
+```
 
 # Output Example
+```json
 {
   "event": "GRAVITATIONAL_COLLAPSE",
   "target": "/tmp/my_folder",
@@ -38,6 +42,7 @@ cargo build --release
   "consumed_dirs": 312,
   "status": "SINGULARITY_REACHED"
 }
+```
 
 # License
 Distributed under the MIT License.
